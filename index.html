@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/reset.css" />
+    <link rel="stylesheet" href="./css/common.css" />
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+  <body>
+    <div class="wraper">
+      <form action="/login" method="GET">
+        <div class="form-control">
+          <label for="arrlength">数组长度：</label>
+          <input name="arrlength" id="arrlength" type="number" />
+          <button id="createArray">创建数组</button>
+          <input type="button" id="createArray" value="创建数组" />
+        </div>
+        <div class="form-control">
+          <label for="array">生成数组：</label>
+          <textarea
+            name="array"
+            id="array"
+            style="vertical-align: middle; height: auto; width: 80%"
+          ></textarea>
+        </div>
+        <div class="form-control">
+          <label for="array">动画效果：</label>
+          <button id="slow">减速</button>
+          <button id="fast">加速</button>
+        </div>
+        <div class="form-control">
+          <label for="array">排序方式：</label>
+          <ul class="sort-style">
+            <button class="btn" id="gbubble">冒泡排序 - generator</button>
+            <button class="btn" id="bubble">冒泡排序</button>
+            <button class="btn" id="choose">选择排序</button>
+            <button class="btn" id="quiklly">快速排序</button>
+          </ul>
+        </div>
+      </form>
+      <div class="sort-area" id="sortArea"></div>
+    </div>
+    <script type="module">
+      import test from "./js/test.js";
+      console.log(test);
+    </script>
+    <script src="./js/utils.js"></script>
+    <script src="./js/sort.js"></script>
+    <script src="./js/index.js"></script>
+  </body>
+</html>

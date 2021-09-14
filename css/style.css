@@ -1,0 +1,54 @@
+textarea,
+input {
+  vertical-align: middle !important;
+}
+button,
+input {
+  border: 1px solid #ccc;
+  height: 26px;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+textarea {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  word-wrap: break-word;
+  word-break: break-all;
+}
+.form-control {
+  padding-top: 15px;
+  padding-bottom: 15px;
+  border-bottom: 1px solid #ccc;
+  background-color: #dec;
+}
+
+.sort-style {
+  display: inline-block;
+}
+.sort-style button {
+  display: inline-block;
+}
+
+.sort-area {
+  height: 300px;
+  width: 100%;
+  border: 1px solid #ccc;
+  background-color: #fff;
+}
+
+.sort-li {
+  width: 10px;
+  height: 100%;
+  display: inline-block;
+  margin-left: 3px;
+  margin-right: 3px;
+}
+.sort-span {
+  width: 100%;
+  display: block;
+  background-color: #ccc;
+}
+
+.sort-span-curret {
+  background-color: red;
+}
